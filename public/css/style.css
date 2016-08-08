@@ -1,0 +1,320 @@
+* {margin:0; padding:0; border:0px;}
+* {     font-family: 'Actor', sans-serif, 'Arial'; }
+.center {text-align: center;}
+.left {text-align: left;}
+p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+#container{
+    width:100%;
+    padding: 0 50px 0 50px;
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+      box-sizing: border-box;
+}
+
+#navigation ul, #admin-nav ul {
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #607d8b;
+}
+#navigation li, #admin-nav li {
+    float:left;
+}
+#navigation li a, #admin-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navigation li a:hover {
+    background-color: #4b626d;
+}
+
+ #navigation ul li.nav-active>a {
+   background-color:#34444c;   
+ }
+
+.left-area{
+    width: 70%;
+    float:left;
+}
+/*.right-area{*/
+#categories {
+    margin: 10px 0 10px 0;
+}
+#cart-container{
+    width: 30%;
+    float:right;
+  }
+  
+
+.right-area {
+    width:100%;
+}
+.table-content
+.main-nav{
+    clear: both;
+   /* margin-top: 5px;*/
+    margin-bottom: 10px;
+    -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    -ms-transition: opacity 0.3s ease-in;
+    -o-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
+}
+.main-nav li a{
+    color: #736357;
+    margin: 0 15px;
+    border-bottom: 2px solid transparent;
+    text-decoration:none;
+}
+
+.main-nav li a:hover{
+    color: #B38262;
+    border-color: #B38262;
+}
+
+
+
+
+.main-nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0;
+   
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    font-size: 14px;
+    color: #9C9C9C;
+    letter-spacing: 0.2mm;
+}
+
+
+.main-nav li.active > a {
+    color: #AF6990;
+    border-color: #AF6990;
+}
+.devider:last-child{
+    display: none;
+}
+
+
+
+#cart-table{
+    width:100%;
+    padding: 0 0 0 20px;
+    border-spacing: 0; 
+    /*border-collapse: collapse;*/ 
+    
+}
+
+#cart-table tr {}
+#cart-table td {
+    text-align: center;
+    border-top: 1px solid #e7eaec;
+    line-height: 1.42857;
+    padding: 8px;
+   /* vertical-align: top;*/
+}
+.table-header{
+    margin-left: 20px;
+    /*font-family: 'Actor', sans-serif;*/
+    
+}
+.name{
+    width:60%;
+    text-align: left!important;
+} 
+
+.item {
+        display: block;
+   /* padding: -4px;*/
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    outline: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product-name {
+   /* margin-top: 20px;*/
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 150%;
+ /*   line-height: 150%;*/
+    position: absolute;
+    z-index: 10;
+    margin-left: -15px;
+    margin-top: -10px;
+  /*  width: 115px;*/
+    text-align: center;
+    padding-left: 5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-transform: rotate(350deg);
+    -moz-transform: rotate(350deg);
+    -o-transform: rotate(350deg);
+    -ms-transform: rotate(350deg);
+}
+.label.label-info {
+    background-color: white; /*#3a87ad;*/
+   
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+  /*  font-size: 75%;*/
+    font-weight: bold;
+  /*  line-height: 1;*/
+    color: #BD7D9E;
+   /* text-align: center;*/
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    border:1px solid #BD7D9E;;
+}
+ .item{
+     margin-bottom: 25px!important;
+     position:relative;
+     padding-bottom: 30px;
+ }
+ .item img {
+    /*   margin-top:20px;*/
+    
+ }
+ 
+ .item a {
+         text-decoration: none;
+ }
+ 
+ .btn-block {
+    /* margin: 0 0 -20px 0;*/
+    display: block;
+   /*  width: 100%;*/
+ }
+ 
+ .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc !important;
+}
+.caption {
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.btn {
+  display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  /*  display: block;*/
+  text-decoration:none;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-default {
+    color: inherit;
+    background: white;
+    border: 1px solid #e7eaec;
+}
+.btn-primary {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #373a3c;
+}
+
+.btn-primary:hover {
+    background-color: #d4d4d4;
+   border-color: #8c8c8c;
+    color: #373a3c;
+}
+
+/*btn*/
+.apply{
+    padding: 1px 5px 1px 5px;
+}
+
+.item a {
+  margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+ }
+.item a:first-child{
+    margin-bottom: 7px; 
+}
+ 
+.product-name {
+    /*font-family: 'Actor', sans-serif; */
+    color: #BD7D9E;
+   /* padding:0 5px 0 7px;*/
+    text-align:center;
+} 
+.item-title{
+     color: #736357;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.item-id {
+    font-weight: 500;
+    font-size: 12px;
+    color: #BD7D9E;
+}
+
+.item-price p{
+    font-size: 1.5em;
+}
+
+.logo{
+    margin-top:20px;
+    margin-left: 45%;
+    margin-right: 55%
+}
+
+#country{
+    height:27px;
+}
+
+.customer-details ul li{
+    line-height: 1.5em;
+}

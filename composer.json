@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/var-dumper": "^3.0",
+        "illuminate/database": "^5.2",
+        "davejamesmiller/laravel-breadcrumbs": "^3.0"
+    }
+}
